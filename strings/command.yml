@@ -1,0 +1,105 @@
+
+
+# Bot Commands
+PING_COMMAND : ["بنج","/ping", "بنج"]
+START_COMMAND : ["/start","استرت"]
+HELP_COMMAND : ["/help","مساعده"]
+SETTINGS_COMMAND : ["/settings", "/setting", "الاعدادات", "الاعدات", "الاعدات"]
+RELOAD_COMMAND : ["/admincache", "reload"]
+GSTATS_COMMAND : ["/gstats"]
+STATS_COMMAND : ["/stats", "احصائيات", "الاحصايات"]
+LANGUAGE_COMMAND : ["الغه", "/language", "/langs", "لغه", "اللغه"]
+
+# Play Commands
+PLAY_COMMAND : ["/play", "فيديو", "/cplay", "/cvplay", "/playforce", "فيديوforce", "/cplayforce", "/cvplayforce", "play", "vplay", "شغل", "تشغيل", "cplay", "playforce", "فديو", "/شغل" , "/تشغيل" , "/فديو"]
+PLAYMODE_COMMAND : ["/playmode", "/وضع شغل", "وضع شغل", "/playmode"]
+CHANNELPLAY_COMMAND : ["/channelplay", "وضع قناه"]
+STREAM_COMMAND : ["/stream", "/cstream", "/streamforce", "لايف"]
+
+
+#Playlists Command
+PLAYLIST_COMMAND : ["/playlist", "القائمه", "11"]
+DELETEPLAYLIST_COMMAND : ["/deleteplaylist", "حذف القائمه"]
+
+
+# Tools
+QUEUE_COMMAND : ["/queue", "/cqueue", "/player", "/cplayer", "/playing", "/cplaying", "/queue", "/cqueue", "/player", "/cplayer", "/playing", "/cplaying"]
+SONG_COMMAND : ["/song", "/video", "تحميل"]
+LYRICS_COMMAND : ["/lyrics"," كلمات","/كلمات"]
+
+
+# Admin Commands
+AUTH_COMMAND : ["/auth"]
+UNAUTH_COMMAND : ["/unauth"]
+AUTHUSERS_COMMAND : ["/authusers"]
+PAUSE_COMMAND : ["/pause", "/cpause", "وقف" ,"قف","اخرص"]
+RESUME_COMMAND : ["/resume", "/cresume", "كمل","ارغي"]
+MUTE_COMMAND : ["/mute", "/cmute", "كتم الصوت"]
+UNMUTE_COMMAND : ["/unmute", "/cunmute", "الغاء كتم الصوا"]
+MAINTANCE_COMMAND : ["/get", "جيب عام", "هات"] 
+STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "ايقاف الاغنيه", "انهاء الاغنيه", "هههههههههقسلهاسقهلى49671", "انهاء", "ايقاف"]
+SKIP_COMMAND : ["/skip", "/cskip", "تخطي", "التالي"]
+SHUFFLE_COMMAND : ["/shuffle", "/cshuffle"]
+LOOP_COMMAND : ["/loop", "/cloop", "الدخول"]
+SEEK_COMMAND : ["/seek", "/cseek", "/seekback", "/cseekback"]
+RESTART_COMMAND : ["restart", "اعاده تشغيل", "♻️ ¦ اعـاده تـشـغيل الـبوت", "تحديث"]
+
+# Sudo Users Commaands
+
+# Sudo Command
+ADDSUDO_COMMAND : ["/addsudo", "رفع مطور ثانوي", "رفع مطور"]
+DELSUDO_COMMAND : ["/delsudo", "تنزيل مطور ثانوي", "تنزيل مطور"]
+SUDOUSERS_COMMAND : ["/sudolist", "الادمنيه", "المشرفين"]
+
+#Broadcast 
+BROADCAST_COMMAND : ["/broadcast", "شير", "اذاعه"]
+
+BLACKLISTCHAT_COMMAND : ["/blacklistchat","حظرالاستخدام"]
+WHITELISTCHAT_COMMAND : ["/whitelistchat","استخدام"]
+BLACKLISTEDCHAT_COMMAND : ["/blacklistedchat","المحظورات"]
+
+# Video Calls Command
+VIDEOLIMIT_COMMAND : ["/set_video_limit","جودة"]
+VIDEOMODE_COMMAND : ["/videomode","وضع"]
+
+
+#Mantenance
+MAINTENANCE_COMMAND : ["maintenance","اساسي"]
+LOGGER_COMMAND : ["logger"]
+
+#Heroku
+GETLOG_COMMAND : ["/get_log", "تسجيل", "شاشه"]
+GETVAR_COMMAND : ["gtahjsja"]#gt_vr
+DELVAR_COMMAND : ["sjjsj"]#del_ar
+SETVAR_COMMAND : ["s_ar"]#s_ar
+USAGE_COMMAND : ["/usge", "الاستخدام"]
+VARS_COMMAND : ["ةتسنسن", "هههههههراي"]
+
+
+
+#Basic Bot Commands
+UPDATE_COMMAND : ["update","جدد"]
+REBOOT_COMMAND : ["reboot","ستارت"]
+AUTOEND_COMMAND : ["autoend"]
+
+#Private Bot Mode
+AUTHORIZE_COMMAND : ["authorize"]
+UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZED_COMMAND : ["authorized"]
+
+#Block Users Command
+BLOCK_COMMAND : ["/block", "حظر"]
+UNBLOCK_COMMAND : ["/unblock", "الغاء حظر"]
+BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
+
+#sPEEDTEST
+SPEEDTEST_COMMAND : ["/speedtest", "اختبار المساعد"]
+
+#Voice chat commands
+ACTIVEVC_COMMAND : ["activevoice","مكالمات النشطه"]
+ACTIVEVIDEO_COMMAND : ["activevideo"]
+
+#Gban Commands
+GBAN_COMMAND : ["/gban", "حظر عام"]
+UNGBAN_COMMAND : ["/ungban", "الغاء حظر عام"]
+GBANNED_COMMAND : ["/gbannedusers", "العام"]
