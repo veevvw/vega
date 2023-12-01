@@ -1,0 +1,50 @@
+import asyncio
+
+import os
+import time
+import requests
+from config import START_IMG_URL
+from pyrogram import filters
+import random
+from pyrogram import Client
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
+from strings.filters import command
+from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from YukkiMusic import app
+from random import  choice, randint
+
+@app.on_message(
+    command(["مطورين فيجا","المطورين","مطورين"])
+    & ~filters.edited
+)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/6154101472d61616307fe.jpg",
+        caption=f"""**⩹━★⊷━𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝐄𝐆𝐀━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين فيجا ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝐄𝐆𝐀━⊶★━⩺**""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "⎖᳒𝐊𝐈𝐌𝐌𝐘⌯‹♱༄►", url=f"https://t.me/TOPVEGA"), 
+                    InlineKeyboardButton(
+                        "𝑨𝑳3𝑶𝑴𝑫𝑨", url=f"https://t.me/FM_3omda"),
+                ],[
+                    InlineKeyboardButton(
+                        "𝗘𝗹𝗡𝗾𝗬𝗯", url=f"https://t.me/UU_X9"),
+                    InlineKeyboardButton(
+                        "- إســلآم : • ✘️", url=f"https://t.me/FCFFCB"),
+                ],[
+                    InlineKeyboardButton(
+                        "ــ٨ﮩﮩ𝐕𝐄𝐆𝐀ــــﮩ", url=f"https://t.me/VE_G_A"),
+                    InlineKeyboardButton(
+                        "ᯓ𓆩˹𝐃 𝐑𝐀 𝐆𝐎𝐍َ", url=f"https://t.me/DrAGON_VEGA"),
+                ],[
+                    InlineKeyboardButton(
+                        "★𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝐄𝐆𝐀⚡", url=f"https://t.me/SOURCEVEGA"),
+                ],
+
+            ]
+
+        ),
+
+    )
